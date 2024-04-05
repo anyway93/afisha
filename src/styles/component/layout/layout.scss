@@ -1,0 +1,54 @@
+$hf-color: #70879D;
+
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #f5f5f5;
+}
+
+header {
+   background-color: $hf-color;
+   text-align: center;
+
+   
+   .header-link {
+      font-family: Comfortaa;
+      text-decoration: none;
+      color: #000;
+      font-size: 40px;
+      font-weight: bold;
+      display: block;
+      padding-top: 30px;
+      letter-spacing: 8px;
+   }
+
+   .header-menu{
+      font-family: Poiret One;
+      padding: 35px 0px;
+
+      a {
+         margin-right: 80px;
+         color: #313131;
+         font-size: 23px;
+         text-decoration: none;
+         font-weight: bold;
+      }
+
+      a:last-child {
+         margin-right: 0px;
+      }
+   }
+}
+
+.container {
+   width: 1440px;
+   // height: 1000px;
+   // background-color: #c8ddfca6;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+// footer {
+//    height: 150px;
+//    background-color: $hf-color;
+// }

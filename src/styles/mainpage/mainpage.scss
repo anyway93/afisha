@@ -48,6 +48,8 @@
 .main-block {
    font-family: Poiret One;
 
+   
+
    .top-genre-block {
       text-align: center;
       
@@ -55,10 +57,36 @@
          text-transform: uppercase;
       }
 
+      h2::before {
+         content: '— •';
+         margin-right: 20px;
+         opacity: 0.2;
+      }
+      h2::after {
+         content: '• —';
+         margin-left: 20px;
+         opacity: 0.2;
+      }
+   }
+
+   .genre-block {
+      text-align: center;
+      margin-top: 50px;
+
       .card-block {
          display: flex;
-         justify-content: center;
-         
+         padding-left: 30px;
+      }
+
+      h2::before {
+         content: '— •';
+         margin-right: 20px;
+         opacity: 0.2;
+      }
+      h2::after {
+         content: '• —';
+         margin-left: 20px;
+         opacity: 0.2;
       }
    }
 }

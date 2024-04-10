@@ -7,7 +7,7 @@ const Layout = () => {
             {/* <h1>Афиша Воронеж</h1> */}
             <Link className='header-link' to="/">Афиша Воронеж</Link>
             <div className="header-menu">
-               <Link to="/sport">Спорт</Link>
+               <Link to="/sport" className='active'>Спорт</Link>
                <Link to="/movies">Кино</Link>
                <Link to="/theaters">Театры</Link>
                <Link to="/concerts">Концерты</Link>
@@ -20,7 +20,7 @@ const Layout = () => {
          </main>
 
          <footer>
-
+            
          </footer>
       </>
    )

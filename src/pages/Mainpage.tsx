@@ -1,36 +1,32 @@
-import React from "react";
+import React, {useState} from "react";
 import '../styles/mainpage/mainpage.css';
-import '../styles/component/card/card.css';
-import { Card } from '../components/Card';
+import { Datesort } from "../components/sections/Datesort";
+import { Search } from "../components/sections/Search";
+import { Sliderblock } from "../components/sections/Sliderblock";
+import { Cardblock } from "../components/sections/Cardblock";
 
-function Mainpage() {
+
+
+
+const Mainpage: React.FC = () => {
+  
+
+  const [searchValue, setSearchValue] = React.useState('');
+  console.log(searchValue)
+
   return (
     <>
-    <div className="search-block">
-      <input type="text" placeholder='Что будем искать?'/>
-      <div className="button-block">
-        <button></button>
-      </div>
-    </div>
-    <div className="date-block">
-      date block
-    </div>
-    <div className="main-block">
-      <div className="top-genre-block">
-        <h2>Топ событий</h2>
-        <div className="card-block">
-          
-            <Card title='Музыкальный Концерт' image='../images/cards/music-concert.jpg'/>
-            <Card title='Фестиваль' image='../images/cards/music-festival.jpg'/>
-            <Card title='Музыкальный Концерт' image='../images/cards/music-concert.jpg'/>
-            <Card title='Музыкальный Концерт' image='../images/cards/music-concert.jpg'/>
-            <Card title='Музыкальный Концерт' image='../images/cards/music-concert.jpg'/>
-            <Card title='Музыкальный Концерт' image='../images/cards/music-concert.jpg'/>
-          
-        </div>
-      </div>
-    </div>
     
+    <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+    <Datesort />
+    <div className="main-block">
+      
+    <Sliderblock searchValue={searchValue} />
+    <Cardblock searchValue={searchValue}/>
+
+    </div>
+
+      
     </>
   );
 }

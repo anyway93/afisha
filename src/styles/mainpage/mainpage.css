@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .search-block {
   padding-top: 35px;
   display: flex;
@@ -49,7 +50,31 @@
 .main-block .top-genre-block h2 {
   text-transform: uppercase;
 }
-.main-block .top-genre-block .card-block {
+.main-block .top-genre-block h2::before {
+  content: "— •";
+  margin-right: 20px;
+  opacity: 0.2;
+}
+.main-block .top-genre-block h2::after {
+  content: "• —";
+  margin-left: 20px;
+  opacity: 0.2;
+}
+.main-block .genre-block {
+  text-align: center;
+  margin-top: 50px;
+}
+.main-block .genre-block .card-block {
   display: flex;
-  justify-content: center;
+  padding-left: 30px;
+}
+.main-block .genre-block h2::before {
+  content: "— •";
+  margin-right: 20px;
+  opacity: 0.2;
+}
+.main-block .genre-block h2::after {
+  content: "• —";
+  margin-left: 20px;
+  opacity: 0.2;
 }/*# sourceMappingURL=mainpage.css.map */

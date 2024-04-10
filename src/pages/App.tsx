@@ -9,7 +9,7 @@ import { Theaters } from './Genres/Theaters';
 import { Concerts } from './Genres/Concerts';
 import { Others } from './Genres/Others';
 
-import { Layout } from '../components/Layout';
+import { Layout } from '../components/sections/Layout';
 
 function App() {
   return (

@@ -1,0 +1,32 @@
+.head-block {
+   display: flex;
+   justify-content: space-around;
+
+   .head-block__sort {
+      background-color: #fff;
+      padding: 5px;
+   }
+}
+
+.genre-block {
+   text-align: center;
+   margin-top: 50px;
+   font-family: Poiret One;
+
+   .card-block {
+      display: flex;
+      padding-left: 30px;
+   }
+
+   h2::before {
+      content: '— •';
+      margin-right: 20px;
+      opacity: 0.2;
+   }
+   h2::after {
+      content: '• —';
+      margin-left: 20px;
+      opacity: 0.2;
+   }
+}
+

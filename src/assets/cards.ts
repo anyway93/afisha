@@ -67,11 +67,21 @@ const cardSport = [
       image : '../images/cards/moto.jfif',
       title: 'Формула - 3'
    },
-   // {
-   //    id:7,
-   //    image : '',
-   //    title: 'Музыкальный Концерт'
-   // }
+   {
+      id:7,
+      image : '',
+      title: ''
+   },
+   {
+      id:8,
+      image : '../images/cards/moto.jfif',
+      title: 'Формула - 3'
+   },
+   {
+      id:9,
+      image : '../images/cards/moto.jfif',
+      title: 'Формула - 3'
+   }
 ]
 
 export {cardTop}

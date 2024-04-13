@@ -1,5 +1,7 @@
 import React from 'react'
 
+import '../../styles/component/search/search.css'
+
 
 interface SearchProps {
    searchValue: string;

@@ -21,10 +21,8 @@ export const Cardblock: React.FC<CardblockProps> = ({ searchValue }) => {
             }
 
             return false
-          }).map(obj => (
-            <>
+          }).slice(0, 6).map(obj => (
             <Card title={obj.title} image={obj.image}/>
-            </>
           ))
         }
       </div>

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.head-block {
+  display: flex;
+  justify-content: space-around;
+}
+.head-block .head-block__sort {
+  background-color: #fff;
+  padding: 5px;
+}
+
+.genre-block {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Poiret One;
+}
+.genre-block .card-block {
+  display: flex;
+  padding-left: 30px;
+}
+.genre-block h2::before {
+  content: "— •";
+  margin-right: 20px;
+  opacity: 0.2;
+}
+.genre-block h2::after {
+  content: "• —";
+  margin-left: 20px;
+  opacity: 0.2;
+}/*# sourceMappingURL=genrepage.css.map */

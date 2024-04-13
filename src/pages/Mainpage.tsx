@@ -1,6 +1,5 @@
-import React, {useState} from "react";
+import React from "react";
 import '../styles/mainpage/mainpage.css';
-import { Datesort } from "../components/sections/Datesort";
 import { Search } from "../components/sections/Search";
 import { Sliderblock } from "../components/sections/Sliderblock";
 import { Cardblock } from "../components/sections/Cardblock";
@@ -16,9 +15,10 @@ const Mainpage: React.FC = () => {
 
   return (
     <>
+    <div className="mg-top">
+      <Search searchValue={searchValue} setSearchValue={setSearchValue} />
+    </div>
     
-    <Search searchValue={searchValue} setSearchValue={setSearchValue} />
-    <Datesort />
     <div className="main-block">
       
     <Sliderblock searchValue={searchValue} />

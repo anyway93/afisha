@@ -9,15 +9,14 @@
   user-select: none;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
-
 }
 
 .slick-list {
   position: relative;
   overflow: hidden;
   display: block;
-  margin: 0px 0px 0px 0px;
-  padding-left: 30px;
+  margin: 0px 0px 0px 50px;
+  padding: 0;
 }
 .slick-list:focus {
   outline: none;

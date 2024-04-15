@@ -8,7 +8,6 @@ interface CardProps {
  const Card = ({title, image}: CardProps) => {
    return (
       <>
-      <div>
          <div className="card">
             <div className="card-auxblock1">
                <img src={image} alt="" />
@@ -17,8 +16,6 @@ interface CardProps {
                <span>{title}</span>
             </div>
          </div>
-      </div>
-      
       </>
       
    )

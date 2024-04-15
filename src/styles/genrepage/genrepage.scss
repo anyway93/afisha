@@ -12,10 +12,12 @@
    text-align: center;
    margin-top: 50px;
    font-family: Poiret One;
+   
 
    .card-block {
       display: flex;
-      padding-left: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
    }
 
    h2::before {

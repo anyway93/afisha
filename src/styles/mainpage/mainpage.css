@@ -35,10 +35,6 @@
   text-align: center;
   margin-top: 50px;
 }
-.main-block .genre-block .card-block {
-  display: flex;
-  padding-left: 30px;
-}
 .main-block .genre-block h2::before {
   content: "— •";
   margin-right: 20px;

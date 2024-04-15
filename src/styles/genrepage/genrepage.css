@@ -15,7 +15,8 @@
 }
 .genre-block .card-block {
   display: flex;
-  padding-left: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .genre-block h2::before {
   content: "— •";

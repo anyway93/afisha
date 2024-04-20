@@ -9,6 +9,10 @@
    cursor: pointer;
    transition: all 0.1s ease-in;
 
+   &:nth-child(6) {
+      margin-right: 0px;
+   }
+
    &:last-child {
       margin-right: 0px;
    }

@@ -9,6 +9,9 @@
   cursor: pointer;
   transition: all 0.1s ease-in;
 }
+.card:nth-child(6) {
+  margin-right: 0px;
+}
 .card:last-child {
   margin-right: 0px;
 }

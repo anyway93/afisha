@@ -39,6 +39,20 @@ header .header-menu .active {
 header .header-menu a:last-child {
   margin-right: 0px;
 }
+header .date {
+  font-family: Poiret One;
+  letter-spacing: 2px;
+  opacity: 0.3;
+  margin-top: -30px;
+  padding: 30px;
+  color: #b6dcff;
+}
+header .date {
+  font-family: Poiret One;
+  letter-spacing: 2px;
+  opacity: 0.3;
+  color: #b6dcff;
+}
 
 .container {
   width: 1470px;

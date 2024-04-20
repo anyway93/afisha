@@ -10,7 +10,6 @@ header {
    background-color: $hf-color;
    text-align: center;
 
-   
    .header-link {
       font-family: Comfortaa;
       text-decoration: none;
@@ -45,7 +44,34 @@ header {
       a:last-child {
          margin-right: 0px;
       }
+      
+      
+      
    }
+   .date {
+      font-family: Poiret One;
+      letter-spacing: 2px;
+      opacity: 0.3;
+      // text-align: right;
+      // margin-right: 50px;
+      // padding-top: 25px;
+      margin-top: -30px;
+      padding: 30px;
+      color: #b6dcff;
+      
+   }
+   .date {
+      font-family: Poiret One;
+      letter-spacing: 2px;
+      opacity: 0.3;
+      // text-align: right;
+      // margin-right: 50px;
+      // padding-top: 25px;
+      color: #b6dcff;
+      
+   }
+
+   
 }
 
 .container {
@@ -54,6 +80,7 @@ header {
    // background-color: #000000a6;
    margin-left: auto;
    margin-right: auto;
+   
 }
 
 footer {

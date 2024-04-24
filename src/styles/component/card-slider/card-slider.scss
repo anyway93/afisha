@@ -1,40 +1,48 @@
-.slider-card {
-   width: 180px;
-   height: 310px;
-   background-color: #BBD3EA80;
-   border-radius: 5px;
-   margin-right: 35px;
-   cursor: pointer;
-   transition: all 0.1s ease-in;
+.slider-card-link {
+   text-decoration: none;
+   color: #000;
 
-   .slider-card-auxblock1 {
-      height: 240px;
-      background-color: #ffffff;
-      margin-top: 20px;
+   .slider-card {
+      width: 180px;
+      height: 310px;
+      background-color: #BBD3EA80;
       border-radius: 5px;
+      margin-right: 35px;
+      cursor: pointer;
+      transition: all 0.1s ease-in;
 
-      img {
-         width: 180px;
+      .slider-card-auxblock1 {
          height: 240px;
+         background-color: #ffffff;
+         margin-top: 20px;
          border-radius: 5px;
+
+         img {
+            width: 180px;
+            height: 240px;
+            border-radius: 5px;
+         }
       }
-   }
 
-   .slider-card-auxblock2 {
-      height: 55px;
-      width: 150px;
-      background-color: #f7f7f7;
-      margin-top: 7px;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 20px;
-      line-height: 25px;
+      .slider-card-auxblock2 {
+         height: 55px;
+         width: 150px;
+         background-color: #f7f7f7;
+         margin-top: 7px;
+         margin-left: auto;
+         margin-right: auto;
+         border-radius: 20px;
+         line-height: 25px;
 
-      span {
-         font-weight: 600;
+         span {
+            font-weight: 600;
+         }
       }
    }
 }
+
+
+   
 
 .slider-card:last-child {
    margin-right: 0px;

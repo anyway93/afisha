@@ -22,7 +22,7 @@ export const Cardblock: React.FC<CardblockProps> = ({ searchValue }) => {
 
             return false
           }).slice(0, 6).map(obj => (
-            <Card title={obj.title} image={obj.image}/>
+            <Card id={obj.id} title={obj.title} image={obj.image}/>
           ))
         }
       </div>
@@ -30,45 +30,45 @@ export const Cardblock: React.FC<CardblockProps> = ({ searchValue }) => {
     <div className="genre-block">
       <h2>Кино</h2>
       <div className="card-block">
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/> 
+        <Card id='' title='' image=''/>
+        <Card id=''  title='' image=''/>
+        <Card id=''  title='' image=''/>
+        <Card id=''  title='' image=''/>
+        <Card id=''  title='' image=''/>
+        <Card id=''  title='' image=''/> 
       </div>
     </div>
     <div className="genre-block">
       <h2>Театры</h2>
       <div className="card-block">
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/> 
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/> 
       </div>
     </div>
     <div className="genre-block">
       <h2>Концерты</h2>
       <div className="card-block">
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/> 
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/> 
       </div>
     </div>
     <div className="genre-block">
       <h2>Разное</h2>
       <div className="card-block">
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/>
-        <Card title='' image=''/> 
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/>
+        <Card id='' title='' image=''/> 
       </div>
     </div>
   </>

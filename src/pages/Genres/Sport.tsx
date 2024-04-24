@@ -26,7 +26,7 @@ export const Sport = () => {
 
               return false
             }).map(obj => (
-              <Card title={obj.title} image={obj.image}/>
+              <Card id='' title={obj.title} image={obj.image}/>
             ))
           }
         </div>

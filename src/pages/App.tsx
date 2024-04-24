@@ -10,6 +10,7 @@ import { Concerts } from './Genres/Concerts';
 import { Others } from './Genres/Others';
 
 import { Layout } from '../components/sections/Layout';
+import { GenreBlock } from './GenreBlock';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="theaters" element={<Theaters />} />
         <Route path="concerts" element={<Concerts />} />
         <Route path="others" element={<Others />} />
+        <Route path="/cards/:id" element={<GenreBlock />} />
       </Route>
     </Routes>
   </>

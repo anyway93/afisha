@@ -37,7 +37,7 @@ export const Sliderblock: React.FC<SliderblockProps> = ({ searchValue }) => {
 
               }).map(obj => (
               <>
-              <CardSlider title={obj.title} image={obj.image}/>
+              <CardSlider linkTo='#' title={obj.title} image={obj.image}/>
               </>
             ))
           }

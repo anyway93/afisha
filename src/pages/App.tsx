@@ -4,7 +4,7 @@ import '../styles/component/layout/layout.css';
 
 import { Mainpage } from './Mainpage';
 import { Sport } from './Genres/Sport';
-import { Movies } from './Genres/Movies';
+import { Movies } from './Genres/Movies'
 import { Theaters } from './Genres/Theaters';
 import { Concerts } from './Genres/Concerts';
 import { Others } from './Genres/Others';

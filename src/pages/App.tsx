@@ -10,7 +10,7 @@ import { Concerts } from './Genres/Concerts';
 import { Others } from './Genres/Others';
 
 import { Layout } from '../components/sections/Layout';
-import { GenreBlock } from './GenreBlock';
+import { GenreBlock } from './GenreBlock'
 
 function App() {
   return (

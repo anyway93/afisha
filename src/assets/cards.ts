@@ -2,85 +2,85 @@ const cardTop = [
    {
       id:'1',
       image : '../images/cards/music-concert.jpg',
-      title: 'Концерт'
+      title: 'Музыкальный Концерт'
    },
    {
       id:'2',
       image : '../images/cards/music-festival.jpg',
-      title: 'Фестиваль'
+      title: 'Музыкальный Фестиваль'
    },
    {
       id:'3',
-      image : '../images/cards/music-concert.jpg',
-      title: 'Музыкальный Концерт'
+      image : '../images/cards/f1.jpg',
+      title: 'Формула-1'
    },
    {
       id:'4',
-      image : '../images/cards/music-concert.jpg',
-      title: 'Гитара Концерт'
+      image : '../images/cards/sc.jpg',
+      title: 'ЦСКА - Спартак'
    },
    {
       id:'5',
-      image : '../images/cards/music-concert.jpg',
-      title: 'Музыкальный Концерт'
+      image : '../images/cards/spartak.jpg',
+      title: 'Спартак. День Открытых дверей'
    },
    {
       id:'6',
-      image : '../images/cards/music-concert.jpg',
+      image : '../images/cards/r.jpg',
       title: 'Рок Концерт'
    },
    {
       id:'7',
-      image : '../images/cards/music-concert.jpg',
-      title: 'Рок - Звезда Концерта'
+      image : '../images/cards/moto.jfif',
+      title: 'Мото Гонки'
    }
 ]
 
 const cardSport = [
    {
       id:'8',
-      image : '../images/cards/image1.jfif',
-      title: 'ЦСКА'
+      image : '../images/cards/ba.jpg',
+      title: 'Баскетбол. Чемпионат'
    },
    {
       id:'9',
-      image : '../images/cards/image2.jpeg',
+      image : '../images/cards/b.jpg',
       title: 'Биатлон'
    },
    {
       id:'10',
-      image : '../images/cards/image3.jpeg',
+      image : '../images/cards/sc.jpg',
       title: 'ЦСКА - Спартак'
    },
    {
       id:'11',
-      image : '../images/cards/image222.jpg',
-      title: 'Формула - 1'
+      image : '../images/cards/spartak.jpg',
+      title: 'Спартак. День Открытых дверей'
    },
    {
       id:'12',
-      image : '../images/cards/image343.jpeg',
-      title: 'Формула - 2'
+      image : '../images/cards/v.jpeg',
+      title: 'Пляжный волейбол'
    },
    {
       id:'13',
       image : '../images/cards/moto.jfif',
-      title: 'Формула - 3'
+      title: 'Мото Гонки'
    },
    {
       id:'14',
-      image : '',
-      title: ''
+      image : '../images/cards/сс.jpg',
+      title: 'Волейбол. Чемпионат'
    },
    {
       id:'15',
-      image : '../images/cards/moto.jfif',
-      title: 'Формула - 3'
+      image : '../images/cards/asd.jpg',
+      title: 'Волейбол среди ветеранов'
    },
    {
       id:'16',
-      image : '../images/cards/moto.jfif',
-      title: 'Формула - 3'
+      image : '../images/cards/scc.jpg',
+      title: 'Суперкросс'
    }
 ]
 

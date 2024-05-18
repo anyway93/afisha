@@ -1,0 +1,56 @@
+.genreblock-container {
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 400px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    
+
+    .content-block {
+        margin-left: 50px;
+        
+        
+        .text-block {
+            width: 800px;
+            height: 460px;
+            background-color: rgb(185, 203, 231);
+            font-family: Poiret One;
+            border-radius: 5px;
+            text-align: center;
+            padding-top: 5px;
+            margin-top: 20px;
+
+
+            p {
+                font-weight: 600;
+                font-size: 20px;
+                color: rgb(92, 92, 92);
+                padding: 0px 20px;
+            }
+        }
+        
+        .div-button {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+
+            button {
+                width: 150px;
+                height: 40px;
+                font-size: 20px;
+                background-color: rgb(143, 175, 226);
+                border: none;
+                border-radius: 5px;
+                
+                
+            }
+        }
+
+        
+    }
+    
+}
+

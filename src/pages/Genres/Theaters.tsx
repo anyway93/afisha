@@ -12,7 +12,6 @@ export const Theaters = () => {
   return (
     <>
       <div className="head-block">
-        <div className="head-block__sort">Сортировать по: </div>
         <Search searchValue={searchValue} setSearchValue={setSearchValue} />
       </div>
       <div className="genre-block">
